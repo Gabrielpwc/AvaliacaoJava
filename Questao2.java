@@ -5,7 +5,7 @@ public class Questao2 {
         Scanner entrada = new Scanner(System.in);
         int numer, numPar = 0, numImpar = 0;
         
-        for(int i = 1; i <= 5; i++){
+        for(int i = 1; i <= 20; i++){
             System.out.println("Digite o " + i + "º número");
             numer = entrada.nextInt();
             
